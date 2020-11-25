@@ -24,7 +24,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          TARA SAY SO
+          TARA SAY SO Now
         </a>
       </header>
 
