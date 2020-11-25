@@ -1,12 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios'
+import {useEffect, useState} from 'react'
 
 function App() {
-  const Key='1638fe563a3c3038628e2462ec04af8a'
-  const API_URL='https://api.musixmatch.com/ws/1.1/chart.tracks.get?chart_name=top&page=1&page_size=5&country=us&f_has_lyrics=1?format=json&apikey='+Key
+  //const {value,setValue}=useState(false)
 
-  axios.get(API_URL).then()
+  useEffect(function(){
+    const Key='1638fe563a3c3038628e2462ec04af8a'
+    const API_URL='https://api.musixmatch.com/ws/1.1/chart.tracks.get?chart_name=top&page=1&page_size=5&country=us&f_has_lyrics=1?format=json&apikey='+Key
+  
+    axios.get(API_URL).then()
+  },[])
+  
 
   return (
     <div className="App">
@@ -27,7 +33,7 @@ function App() {
         </a>
       </header>
 
-      <footer>Powered by: <a href="www.musixmatch.com">MusixMatch</a></footer>
+      <footer>Powered by: <a href="www.musixmatch.com">MusixMatch</a>&nbsp; Designed by: TaraKuds</footer>
     </div>
   );
 }
