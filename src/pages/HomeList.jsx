@@ -11,14 +11,14 @@ function HomeList(){
 
             <div className="contain">
             
-                <div className="cards">
+                <Cards className='cards'>
                 <img className='cards-img' src={icon} alt="card icon" srcSet=""/>
                     <div className='right'>
                     <h4 className='title'>TOP 10 MUSIC TRACKS IN THE US</h4>
                     <p className='artist'>By: </p>
                     <Tracklist info='{info[2]}' />
                     </div>
-                </div>
+                </Cards>
             </div>
 
         </Mainlist>
@@ -40,12 +40,14 @@ const Mainlist= styled.div`
     margin:5%;
     display:flex;
 }
-.cards{
+`
+const Cards = styled.div`
+
     background-color:#00f;
     padding:3% 1%;
     height:30vh;
     width:50%
-}
+
 .cards-img{
     width: 20%;
     height:auto;
