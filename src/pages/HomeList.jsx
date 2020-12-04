@@ -12,9 +12,12 @@ function HomeList(){
             <div className="contain">
             
                 <div className="cards">
-                    <p>TOP 10 MUSIC TRACKS IN THE US</p>
-                    <img src={icon} alt="card icon" srcSet=""/>
+                <img className='cards-img' src={icon} alt="card icon" srcSet=""/>
+                    <div className='right'>
+                    <p className='title'>TOP 10 MUSIC TRACKS IN THE US</p>
+                    <p className='artist'>TOP 10 MUSIC TRACKS IN THE US</p>
                     <Tracklist info='{info[2]}' />
+                    </div>
                 </div>
             </div>
 
@@ -23,7 +26,7 @@ function HomeList(){
 }
 
 const Mainlist= styled.div`
-    
+    background-color:#fff;
     margin-top:5%;
     text-align:center;
 .change{
@@ -33,10 +36,28 @@ const Mainlist= styled.div`
 }
 
 .contain{
-    background-color:#fff;
     width:50%;
     margin:5%;
+    display:flex;
+}
+.cards{
+    background-color:#00f;
+    padding:3% 1%;
+    height:30vh;
+    width:50%
+}
+.cards-img{
+    width: 20%;
+    height:auto;
+}
+.right{
+    border:1px solid #fff;
+    float:right;
+    height:30vh;
 }
 `
+// const Contain=styled.div`
+
+// `
 
 export default HomeList
