@@ -1,13 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /*this is approx 62.5% of 16px(wch is default = 1rem ~ 16px) but for better calc this conversion equates 1rem ~ 10px*/
+}
+
 body {
+  background-color: #00f;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "JetBrains Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
