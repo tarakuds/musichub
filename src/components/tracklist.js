@@ -14,7 +14,7 @@ const Tracklist=(props)=>{
          });
          
          document.querySelector('.title').innerHTML=detailed_list[0].track.track_name;
-         document.querySelector('.artist').innerHTML=detailed_list[0].track.artist_name;
+         document.querySelector('.artist').innerText=detailed_list[0].track.artist_name;
          console.log(info);
          console.log(detailed_list[0])
 
@@ -25,13 +25,7 @@ const Tracklist=(props)=>{
         // });
                 });
 
-    return (
-        <>
-                <p className='change'>This is it</p>
-                 <li>{props.info}</li>
-        </>
-               
-                 )
+    return <button>VIEW LYRICS</button>
 }
 
 

@@ -14,8 +14,8 @@ function HomeList(){
                 <div className="cards">
                 <img className='cards-img' src={icon} alt="card icon" srcSet=""/>
                     <div className='right'>
-                    <p className='title'>TOP 10 MUSIC TRACKS IN THE US</p>
-                    <p className='artist'>TOP 10 MUSIC TRACKS IN THE US</p>
+                    <h4 className='title'>TOP 10 MUSIC TRACKS IN THE US</h4>
+                    <p className='artist'>By: </p>
                     <Tracklist info='{info[2]}' />
                     </div>
                 </div>
@@ -53,7 +53,9 @@ const Mainlist= styled.div`
 .right{
     border:1px solid #fff;
     float:right;
-    height:30vh;
+}
+.title{
+    font-size:1.5rem;
 }
 `
 // const Contain=styled.div`
