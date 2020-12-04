@@ -13,7 +13,7 @@ function Home(){
 
         // document.querySelector('.change').innerHTML = "It has been changed"
         console.log(document.querySelector('.change'))
-        console.log('This is the button');
+        //console.log('This is the button');
     }
 
     return (
