@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import icon from '../assets/music_icon.png'
 import {useState} from 'react'
 import HomeList from './HomeList'
+import Lyrics from '../components/Lyrics'
 
 function Home(){
     const [showValue, setValue]=useState(false)
@@ -32,6 +33,7 @@ function Home(){
                 
                 )
             }
+        <Lyrics />
 
         </>
     )

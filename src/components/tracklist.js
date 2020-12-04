@@ -8,7 +8,7 @@ const Tracklist=(props)=>{
         var detailed_list=res.data.message.body.track_list;
 
         //  console.log(info);
-         console.log(detailed_list[0])
+        //  console.log(detailed_list[0])
 
 
          var content = document.querySelector('.contain')
@@ -28,7 +28,7 @@ const Tracklist=(props)=>{
                 	
              `
              content.innerHTML = contentNew
-            console.log(item)
+            // console.log(item)
              });
                 });
 

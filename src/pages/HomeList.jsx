@@ -4,7 +4,6 @@ import Tracklist from '../components/Tracklist'
 
 
 function HomeList(){
-    // console.log(List);
     return(
         <Mainlist>
             <h1 className='change'>TOP 10 MUSIC TRACKS IN THE US</h1>
