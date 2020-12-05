@@ -1,18 +1,14 @@
-import styled from 'styled-components'
-import icon from '../assets/music_icon.png'
-import {useState} from 'react'
-import HomeList from './HomeList'
-import Lyrics from '../components/Lyrics'
+import styled from 'styled-components';
+import icon from '../assets/music_icon.png';
+import {useState} from 'react';
+import HomeList from './HomeList';
+import Lyrics from '../components/Lyrics';
 
 function Home(){
-    const [showValue, setValue]=useState(false)
-    // const [newValue]=useState('This is MR CLICKED')
-
+    const [showValue, setValue]=useState(false);
 
     function view(){
-        setValue(!showValue)
-
-        // document.querySelector('.change').innerHTML = "It has been changed"
+        setValue(!showValue);
     }
 
     return (

@@ -1,5 +1,5 @@
-import Axios from 'axios'
-import React from 'react'
+import Axios from 'axios';
+//import React from 'react'
 
 const Lyrics =()=>{
     const key= '1638fe563a3c3038628e2462ec04af8a'

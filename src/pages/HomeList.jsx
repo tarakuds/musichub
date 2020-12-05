@@ -15,7 +15,7 @@ function HomeList(){
                     <div className='right'>
                     <h4 className='title'>TOP 10 MUSIC TRACKS IN THE US</h4>
                     <p className='artist'>By: </p>
-                    <Tracklist info='{info[2]}' />
+                    <Tracklist />
                     </div>
                 </Cards>
             </div>
