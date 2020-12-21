@@ -15,7 +15,7 @@ const Lyrics =()=>{
 
     return (
     <>
-    <p className='lyrics-details'></p>
+    <p className='lyrics-details'>yes</p>
     </>
     );
     

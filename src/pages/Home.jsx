@@ -25,11 +25,14 @@ function Home(){
         </MusicImage>
 
         {showValue &&(
-                        <HomeList></HomeList>
-                
+                        <>
+                            <HomeList></HomeList>
+                            <Lyrics />
+                        </>
+                        
                 )
             }
-        <Lyrics />
+        
 
         </>
     )
